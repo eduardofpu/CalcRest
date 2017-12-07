@@ -1,15 +1,15 @@
-package br.com.calc.Implement;
+package br.com.restfull.controller.test;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
-import br.com.calc.AbstractTest;
-import br.com.calc.controller.CalcController;
 
+import br.com.restfull.AbstractTest;
+import br.com.restfull.controller.CalcController;
 
-public class TestImplement extends AbstractTest {
-
-	private static final Logger LOGGER = Logger.getLogger(TestImplement.class);
+public class CalcControllerTest extends AbstractTest{
+	
+	private static final Logger LOGGER = Logger.getLogger(CalcControllerTest.class);
 	
 	@Test
 	public void somaTest() {
@@ -43,5 +43,6 @@ public class TestImplement extends AbstractTest {
 		LOGGER.info("Dividir = " + dividir);
 		
 	}
+
 
 }

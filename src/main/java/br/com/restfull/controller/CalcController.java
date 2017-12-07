@@ -1,4 +1,4 @@
-package br.com.calc.controller;
+package br.com.restfull.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/calculadora")
 public class CalcController {
+
 	@RequestMapping(value ="/soma", method = RequestMethod.GET)
     public Double soma(@RequestParam("valA") Double valA, @RequestParam("valB") Double valB) {
  
